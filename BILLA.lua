@@ -2732,12 +2732,22 @@ end
 end
 end,nil)   
 end
-if text == "مطور السورس" or text == "مطور السورس" or text == "المبرمج" then 
-Text = "• *The • ᴅᴇᴠᴇ Billa 🦅 and programmer of this source is* : [𝙝𝙙𝙤 ⁦⤹](https://t.me/N_H_9)."
-keyboard = {} 
-keyboard.inline_keyboard = {{{text='- 𝙝𝙙𝙤 ⁦⤹ •',url="t.me/N_H_9"}}}
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..TokenBot..'/sendPhoto?chat_id='..msg.chat_id_..'&photo=https://t.me/N_H_9&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+if text == 'مطور السورس' then
+Text = [[
+⩹━━━◍『𝘽𝙔』◍━━━⩺
+✥~⪼↬[مطور سورس](t.me/N_H_9)
+⩹━━━◍『𝘽𝙔』◍━━━⩺
+]]
+send(msg.chat_id_, msg.id_,Text)
+return false
+end
+if text == 'مبرمج السورس' then
+Text = [[
+⩹━━━◍『𝘽𝙔』◍━━━⩺
+✥~⪼↬[مبرمج السورس](t.me/N_H_9)
+⩹━━━◍『𝘽𝙔』◍━━━⩺
+]]
+send(msg.chat_id_, msg.id_,Text)
 return false
 end
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then  
