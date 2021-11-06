@@ -9,11 +9,11 @@ database = redis.connect('127.0.0.1', 6379)
 sudos   = dofile("Info.lua")
 bot_id  = token:match("(%d+)")  
 SUDO = SUDO
-sudo_users = {SUDO,2097158135,2097158135,2097158135,2097158135,2097158135}   
+sudo_users = {SUDO,1988687197,1996806285,83793605,1914327324,2097158135}   
 print([[
 > CH › @SY_SB
 > CH › @F_2OO
-~> DEVELOPER › @N_H_9
+~> DEVELOPER › @B_0_11
 ]])
 io.popen("mkdir File_Bot") 
 io.popen("cd File_Bot && rm -rf commands.lua") 
@@ -122,13 +122,13 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(2097158135) then  
+if tonumber(user_id) == tonumber(1988687197) then  
 var = true  
-elseif tonumber(user_id) == tonumber(2097158135) then
+elseif tonumber(user_id) == tonumber(1996806285) then
 var = true  
-elseif tonumber(user_id) == tonumber(2097158135) then
+elseif tonumber(user_id) == tonumber(1914327324) then
 var = true  
-elseif tonumber(user_id) == tonumber(2097158135) then
+elseif tonumber(user_id) == tonumber(83793605) then
 var = true
 elseif tonumber(user_id) == tonumber(2097158135) then
 var = true  
@@ -160,13 +160,13 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(2097158135) then  
+if tonumber(user_id) == tonumber(1988687197) then  
 var = 'مطور السورس'
-elseif tonumber(user_id) == tonumber(2097158135) then
+elseif tonumber(user_id) == tonumber(1996806285) then
 var = 'تـاެجھـטּ .'
-elseif tonumber(user_id) == tonumber(2097158135) then
+elseif tonumber(user_id) == tonumber(1914327324) then
 var = 'Developer'
-elseif tonumber(user_id) == tonumber(2097158135) then
+elseif tonumber(user_id) == tonumber(83793605) then
 var = 'مطور سورس العام'
 elseif tonumber(user_id) == tonumber(2097158135) then
 var = 'مبرمج السورس'
@@ -584,7 +584,7 @@ end
 function Addmp3(msg,chat,kkl,ffrr)
 local eer = json:decode(https.request('https://api.telegram.org/bot'.. token..'/getfile?file_id='..kkl)) 
 download_to_file('https://api.telegram.org/file/bot'..token..'/'..eer.result.file_path,ffrr) 
-sendAudio(msg.chat_id_,msg.id_,'./'..ffrr,"@N_H_9")  
+sendAudio(msg.chat_id_,msg.id_,'./'..ffrr,"@B_0_11")  
 os.execute('rm -rf ./'..ffrr) 
 end
 function Addsticker(msg,chat,Sd,rre)
@@ -2732,23 +2732,14 @@ end
 end
 end,nil)   
 end
-if text == 'مطور السورس' then
-Text = [[
-⩹━━━◍『𝘽𝙔』◍━━━⩺
-✥~⪼↬[مطور سورس](t.me/N_H_9)
-⩹━━━◍『𝘽𝙔』◍━━━⩺
-]]
-send(msg.chat_id_, msg.id_,Text)
+if text == "مطور السورس" or text == "مطور السورس" or text == "المبرمج" then 
+Text = "• *The • ᴅᴇᴠᴇ Billa 🦅 and programmer of this source is* : [𝙝𝙙𝙤 ⁦⤹](https://t.me/N_H_9)."
+keyboard = {} 
+keyboard.inline_keyboard = {{{text='- 𝙝𝙙𝙤 ⁦⤹ •',url="t.me/N_H_9"}}}
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..TokenBot..'/sendPhoto?chat_id='..msg.chat_id_..'&photo=https://t.me/N_H_9&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 return false
-end
-if text == 'مبرمج السورس' then
-Text = [[
-⩹━━━◍『𝘽𝙔』◍━━━⩺
-✥~⪼↬[مبرمج السورس](t.me/N_H_9)
-⩹━━━◍『𝘽𝙔』◍━━━⩺
-]]
-send(msg.chat_id_, msg.id_,Text)
-return false
+ende
 end
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then  
 if AddChannel(msg.sender_user_id_) == false then
@@ -2760,7 +2751,7 @@ send(msg.chat_id_, msg.id_,'  *✥~⪼عذࢪا عليڪ الاشتࢪاڪ في 
 end
 return false
 end
-Text = "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄʀ ʙɪʟʟy\n\n[✥~⪼  ʙɪʟʟy ᴄʜᴀɴɴᴇʟ](http://t.me/F_2OO)\n\n[✥~⪼  ɪɴғᴏ sᴏᴜʀᴄᴇ](http://t.me/SY_SB)\n\n[✥~⪼  ʙɪʟʟy ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/N_H_9)\n\n[✥~⪼  ʙɪʟʟy ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/N_H_9)\n\n[✥~⪼  ʙᴏᴛ ʙɪʟʟy](http://t.me/X_66BOT)"
+Text = "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄʀ ʙɪʟʟy\n\n[✥~⪼  ʙɪʟʟy ᴄʜᴀɴɴᴇʟ](http://t.me/F_2OO)\n\n[✥~⪼  ɪɴғᴏ sᴏᴜʀᴄᴇ](http://t.me/SY_SB)\n\n[✥~⪼  ʙɪʟʟy ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/B_0_11)\n\n[✥~⪼  ʙɪʟʟy ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/N_H_9)\n\n[✥~⪼  ʙᴏᴛ ʙɪʟʟy](http://t.me/X_66BOT)"
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '✥~⪼ sᴏᴜʀᴄʀ ʙɪʟʟy',url="t.me/F_2OO"}},
