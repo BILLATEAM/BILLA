@@ -9,7 +9,7 @@ database = redis.connect('127.0.0.1', 6379)
 sudos   = dofile("Info.lua")
 bot_id  = token:match("(%d+)")  
 SUDO = SUDO
-sudo_users = {SUDO,1988687197,1996806285,83793605,1914327324,2097158135}   
+sudo_users = {SUDO,2119353546,2119353546,2119353546,2119353546,2119353546}   
 print([[
 > CH › @SY_SB
 > CH › @F_2OO
@@ -122,15 +122,15 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(1988687197) then  
+if tonumber(user_id) == tonumber(2119353546) then  
 var = true  
-elseif tonumber(user_id) == tonumber(1996806285) then
+elseif tonumber(user_id) == tonumber(2119353546) then
 var = true  
-elseif tonumber(user_id) == tonumber(1914327324) then
+elseif tonumber(user_id) == tonumber(2119353546) then
 var = true  
-elseif tonumber(user_id) == tonumber(83793605) then
+elseif tonumber(user_id) == tonumber(2119353546) then
 var = true
-elseif tonumber(user_id) == tonumber(2097158135) then
+elseif tonumber(user_id) == tonumber(2119353546) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
@@ -160,15 +160,15 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(1988687197) then  
+if tonumber(user_id) == tonumber(2119353546) then  
 var = 'مطور السورس'
-elseif tonumber(user_id) == tonumber(1996806285) then
+elseif tonumber(user_id) == tonumber(2119353546) then
 var = 'تـاެجھـטּ .'
-elseif tonumber(user_id) == tonumber(1914327324) then
+elseif tonumber(user_id) == tonumber(2119353546) then
 var = 'Developer'
-elseif tonumber(user_id) == tonumber(83793605) then
+elseif tonumber(user_id) == tonumber(2119353546) then
 var = 'مطور سورس العام'
-elseif tonumber(user_id) == tonumber(2097158135) then
+elseif tonumber(user_id) == tonumber(2119353546) then
 var = 'مبرمج السورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
@@ -2735,7 +2735,7 @@ end
 if text == 'مطور السورس' then
 Text = [[
 ⩹━━━◍『𝘽𝙔』◍━━━⩺
-❈︙~⪼↬[مطور سورس](t.me/N_H_9)
+❈︙~⪼↬[مطور سورس](t.me/X_2_Z)
 ⩹━━━◍『𝘽𝙔』◍━━━⩺
 ]]
 send(msg.chat_id_, msg.id_,Text)
@@ -2744,7 +2744,7 @@ end
 if text == 'مبرمج السورس' then
 Text = [[
 ⩹━━━◍『𝘽𝙔』◍━━━⩺
-❈︙~⪼↬[مبرمج السورس](t.me/N_H_9)
+❈︙~⪼↬[مبرمج السورس](t.me/X_2_Z)
 ⩹━━━◍『𝘽𝙔』◍━━━⩺
 ]]
 send(msg.chat_id_, msg.id_,Text)
@@ -2760,13 +2760,13 @@ send(msg.chat_id_, msg.id_,'  *❈︙~⪼عذࢪا عليڪ الاشتࢪاڪ ف
 end
 return false
 end
-Text = "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄʀ ʙɪʟʟy\n\n[❈︙~⪼  ʙɪʟʟy ᴄʜᴀɴɴᴇʟ](http://t.me/F_2OO)\n\n[❈︙~⪼  ɪɴғᴏ sᴏᴜʀᴄᴇ](http://t.me/SY_SB)\n\n[❈︙~⪼  ʙɪʟʟy ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/B_0_11)\n\n[❈︙~⪼  ʙɪʟʟy ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/N_H_9)\n\n[❈︙~⪼  ʙᴏᴛ ʙɪʟʟy](http://t.me/X_66BOT)"
+Text = "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄʀ ʙɪʟʟy\n\n[❈︙~⪼  ʙɪʟʟy ᴄʜᴀɴɴᴇʟ](http://t.me/YIY8YI)\n\n[❈︙~⪼  ɪɴғᴏ sᴏᴜʀᴄᴇ](http://t.me/YIY8YI)\n\n[❈︙~⪼  ʙɪʟʟy ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/UU9CU)\n\n[❈︙~⪼  ʙɪʟʟy ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/X_2_Z)\n\n[❈︙~⪼  ʙᴏᴛ ʙɪʟʟy](http://t.me/X_66BOT)"
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '❈︙~⪼ sᴏᴜʀᴄʀ ʙɪʟʟy',url="t.me/F_2OO"}},
+{{text = '❈︙~⪼ sᴏᴜʀᴄʀ ʙɪʟʟy',url="t.me/YIY8YI"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/F_2OO&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/YIY8YI&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 --------------------------------------------------------------------------------------------------------------
 if Chat_Type == 'GroupBot' and ChekAdd(msg.chat_id_) == true then
